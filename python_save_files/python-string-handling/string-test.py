@@ -1,0 +1,6 @@
+mname=input("Enter a name: ")
+print("Reverse name is: ",mname[::-1])
+print("\nMethod 2:\n")
+print(f"Reversed name is : {mname[::-1]} ")
+print("\nMethod 3:\n")
+print(f"{input("Enter your name: ")}")

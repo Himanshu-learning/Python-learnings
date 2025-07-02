@@ -1,0 +1,13 @@
+name="Himanshu Sharma"
+print(f"Your name is : {name} and\nLength of your name is: {len(name)}")
+print("\nSome basic operations on your name is as follows:\n")
+print(f"Name in CAPS: {name.upper()}")
+print(f"Name lowered: {name.lower()}")
+print(f"Name titled: {name.title()}")
+print(f"'h' occured in your name is: {name.count("h")}")
+print(f"\"h\" occured in your name is: {name.count("h")}")
+print("\nCount lower character which you want to know in your name: \n")
+name,char=input("Enter yout name and the counting character separated by comma: ").split(",")
+print(f"{name.lower()}")
+print("\nAccording to analysis....char occurance count is below..")
+print(name.lower().count(char.lower()))
